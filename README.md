@@ -2,7 +2,7 @@
 This is a personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, services, and includes a contact form and resume download functionality.
 
 🌐 Live Demo 
-https://siddani-deepak.github.io/My-Portfolio/
+
 
 🚀 Features
 Responsive and modern design
