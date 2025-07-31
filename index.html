@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio of Deepak – Web Developer and AI/ML Student"
+    />
+    <meta
+      name="keywords"
+      content="Portfolio, Web Developer, Deepak, HTML, CSS, JavaScript, AI, ML"
+    />
+    <meta name="author" content="Siddani Deepak" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Navigation menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a
+            href="https://github.com/siddani-deepak"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/siddani-deepak"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Siddani Deepak</div>
+          <div class="text-three">Web Developer</div>
+          <div class="text-four"></div>
+        </div>
+        <div class="button">
+          <a href="#contact" class="hire">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img
+              src="img/My-Profile.png"
+              alt="Photo of Siddani Deepak"
+              width="200"
+              height="auto"
+            />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>
+              I am currently pursuing a B.Tech in Artificial Intelligence and
+              Machine Learning at SRKR Engineering College, and I hold a Diploma
+              in Computer Science from VKR & VNB Polytechnic College. I am a Web
+              Developer and Machine Learning enthusiast with a passion for
+              building intelligent, user-friendly applications. With a strong
+              foundation in programming, I enjoy solving real-world problems by
+              combining the power of web technologies and machine learning. My
+              goal is to develop impactful solutions that make technology more
+              accessible and meaningful.
+            </p>
+            <div class="button">
+              <a
+                href="SIDDANI DEEPAK RESUME.pdf"
+                target="_blank"
+                class="download-cv-button"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflect Our Knowledge</div>
+            <p>
+              I have strong skills in programming languages such as HTML, CSS,
+              JavaScript, Python, and React, along with a solid understanding of
+              Machine Learning. My technical knowledge enables me to design and
+              implement efficient, scalable solutions across both front-end web
+              development and intelligent systems.
+            </p>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Python</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Machine Learning</div>
+              <div class="per">50%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="title">
+        <span>My Projects</span>
+      </div>
+      <div class="boxes">
+        <div class="box project-img-1">
+          <div class="content">
+            <h3 class="topic">Weather App</h3>
+            <p>
+              Built a weather app with HTML, CSS and JavaScript, using a weather
+              API for real-time data. Users can search by city to view current
+              weather, temperature, and forecasts.
+            </p>
+          </div>
+        </div>
+        <div class="box project-img-2">
+          <div class="content">
+            <h3 class="topic">Phishing Website Detection</h3>
+            <p>
+              Developed a phishing website detection model using Logistic
+              Regression in Python, achieving 95% accuracy. <br />
+              Preprocessed data using feature scaling and encoding. <br />
+              Evaluated using precision, recall, and F1-score.
+            </p>
+          </div>
+        </div>
+        <div class="box project-img-3">
+          <div class="content">
+            <h3 class="topic">Quiz Master</h3>
+            <p>
+              Developed The Quiz Master, a web-based quiz platform with
+              AI-powered assistance, flashcards, and performance tracking across
+              30+ categories. Includes adaptive challenges and daily learning
+              tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>
+              I specialize in front-end web development using HTML, CSS,
+              JavaScript, and React to create responsive and user-friendly
+              interfaces. I enjoy building modern websites that are both
+              visually appealing and functionally efficient.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>
+              I have a keen eye for visual aesthetics and create compelling
+              designs using tools like Adobe Photoshop and Illustrator. My
+              designs focus on clear communication, creativity, and enhancing
+              user experience across digital platforms.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>
+              I have experience in capturing high-quality photographs that tell
+              a story and evoke emotions. With editing tools like Adobe
+              Lightroom and Photoshop, I enhance images to achieve professional
+              and polished results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section Start -->
+    <section class="contact" id="contact">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="content">
+        <div class="text">
+          <p>
+            Feel free to reach out for collaborations or just a friendly Hello!
+          </p>
+          <div class="button">
+            <a
+              href="chat.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="lets-chat-button"
+              >Let's Chat</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Deepak</a> | &#169; 2025</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
